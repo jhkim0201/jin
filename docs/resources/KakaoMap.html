@@ -336,8 +336,8 @@ function SetGeocodeToReverseGeocode(lat, lng) {
         
         $.ajax({
             type: 'GET',
-            //url: '/Invitations/ReverseGeocodeForKakao',
-            url: 'http://mcard.barunnfamily.com/Invitations/KakaoMap?lat=37.5582608366668&lng=127.03442251807',
+            url: '/Invitations/ReverseGeocodeForKakao',
+            //url: 'http://mcard.barunnfamily.com/Invitations/KakaoMap?lat=37.5582608366668&lng=127.03442251807',
             data: {
                 'lat': lat,
                 'lng': lng
